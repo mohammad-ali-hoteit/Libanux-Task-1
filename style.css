@@ -138,3 +138,44 @@ nav{
     align-items: center;
     margin: 40px;
 }
+
+/* Section Feature */
+.feature{
+    height: 416px;
+}
+.feature-text{
+    margin-top: 100px;
+}
+.feature-text h2{
+    color: #4D4D4D;
+    font-size: 36px;
+    text-align: center;
+}
+.feature-text p{
+    text-align: center;
+    color: #717171;
+    margin-top: 20px;
+}
+.feature-card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.feature-card div{
+    width: 240px;
+    height: 300px;
+    padding: 24px 32px;
+    text-align: center;
+    align-content: center;
+}
+.feature-card h3{
+    margin-top: 30px;
+    width: 240px;
+    font-size: 28px;
+    color: #4D4D4D;
+}
+.feature-card p{
+    color: #717171;
+    font-size: 14px;
+    margin-top: 20px;
+}
