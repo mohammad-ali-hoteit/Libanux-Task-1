@@ -276,3 +276,62 @@ nav{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+/* Section Customers */
+.customers{
+    margin-top: 50px;
+    height: 390px;
+    background-color: #F5F7FA;
+}
+.customers-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.customers-image{
+    margin-right: 80px;
+    margin-top: 40px;
+}
+.customers-text-logos{
+    width: 748px;
+    height: 324px;
+    margin-top: 40px;
+}
+.p1{
+    color: #717171;
+    font-size: 16px;
+    line-height: 24px;
+}
+.customers-text-logos h4{
+    font-size: 20px;
+    color: #4CAF4F;
+    margin-top: 12px;
+}
+.p2{
+    font-size: 16px;
+    line-height: 24px;
+    color: #89939E;
+    margin-top: 10px;
+}
+.customers-logos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.customers-logos img{
+    width: 48px;
+    height: 48px;
+}
+.btnMeet{
+    background-color: #F5F7FA;
+    color: #4CAF4F;
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+
