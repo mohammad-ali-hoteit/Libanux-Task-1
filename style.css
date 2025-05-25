@@ -179,3 +179,29 @@ nav{
     font-size: 14px;
     margin-top: 20px;
 }
+
+/* Section Pixelgrade */
+
+.pixelgrade{
+    height: 433px;
+    padding: 0 144px 0 144px;
+}
+.pixelgrade-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 110px;
+}
+.pixelgrade-text h2{
+    margin-bottom: 20px;
+    color: #4D4D4D;
+    font-size: 36px;
+
+}
+.pixelgrade-text p{
+    width: 600px;
+    height: 80px;
+    color: #717171;
+    margin-bottom: 32px;
+}
+
