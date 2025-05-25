@@ -246,3 +246,33 @@ nav{
     gap: 16px;
 }
 
+/* Section Testimonial*/
+.testimonial{
+    height: 433px;
+    padding: 0 144px 0 144px;
+}
+.testimonial-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.testimonial-image{
+    height: 433px;
+}
+.testimonial-text{
+    width: 660px;
+    height: 224px;
+}
+.testimonial-text h2,p{
+    width: 600px;
+}
+.testimonial-text h2{
+    color: #4D4D4D;
+    font-size: 36px;
+}
+.testimonial-text p{
+    color: #717171;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
