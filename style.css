@@ -414,3 +414,75 @@ nav{
     line-height: 28px;
 }
 
+/* Footer */
+.cta{
+    height: 300px;
+    color: #F5F7FA;
+    margin-top: 60px;
+}
+.cta-content{
+    text-align: center;
+}
+.cta-content h1{
+    font-size: 64px;
+    color: #263238;
+}
+.btnDemo{
+    margin-top: 25px;
+    margin-left: 45%;
+}
+
+footer{
+    height: 328px;
+    background-color: #263238;
+    color: white;
+    padding: 80px 0 30px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-start{
+    margin-left: 100px;
+}
+.footer-column{
+    padding: 20px;
+}
+.footer-column h1{
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}.footer-column p{
+    margin: 10px;
+    color: #F5F7FA;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.footer-column h4{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.footer-links{
+    list-style: none;
+}
+.footer-links li{
+    margin-bottom: 25px;
+}
+.footer-links a{
+    color: #F5F7FA;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.footer-links a:hover{
+    opacity: 1;
+}
+.enter-email{
+    margin-right: 100px;
+}
+.enter-email input {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+    }
