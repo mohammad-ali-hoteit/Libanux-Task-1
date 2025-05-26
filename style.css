@@ -353,4 +353,64 @@ nav{
     transition: 0.3s ease;
 }
 
+/* Section Blog */
+.blog{
+    margin-top: 50px;
+}
+.blog-text{
+    text-align: center;
+}
+.blog-text h2{
+    font-size: 36px;
+    color: #4D4D4D;
+    margin-bottom: 10px;
+}
+.blog-text p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #717171;
+    text-align: center;
+    margin-left: 30%;
+}
+.blog-posts{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    padding: 0 144px 0 144px;
+}
+.infos{
+    background-color: #F5F7FA;
+    width: 300px;
+    margin-bottom: 100px;
+    margin: 10px;
+}
+.infos h4{
+    padding-top: 20px;
+    color: #717171;
+    font-size: 20px;
+    line-height: 28px;
+}
+.post{
+    background: #F5F7FA;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.post img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.infos h4,button{
+    margin: 10px;
+    text-align: center;
+}
+.btnRd{
+    margin-left: 70px;
+    background-color: transparent;
+    text-transform: bold;
+    font-size: 20px;
+    line-height: 28px;
+}
 
