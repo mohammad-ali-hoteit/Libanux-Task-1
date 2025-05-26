@@ -126,6 +126,7 @@ nav{
     color: #4D4D4D;
 }
 .section-client-subtitle{
+    width: 100%;
     text-align: center;
     margin: 20px;
     font-size: 16px;
@@ -144,6 +145,7 @@ nav{
     height: 416px;
 }
 .feature-text{
+    width: 1440px;
     margin-top: 100px;
 }
 .feature-text h2{
@@ -151,7 +153,8 @@ nav{
     font-size: 36px;
     text-align: center;
 }
-.feature-text p{
+.section-feature-subtitle{
+    width: 100%;
     text-align: center;
     color: #717171;
     margin-top: 20px;
@@ -175,6 +178,7 @@ nav{
     color: #4D4D4D;
 }
 .feature-card p{
+    width: 251px;
     color: #717171;
     font-size: 14px;
     margin-top: 20px;
@@ -208,12 +212,11 @@ nav{
 /* Section Stats */
 .stats{
     height: 270px;
-    padding: 64px 144px;
     background-color: #F5F7FA;
 }
 .stats-content{
     display: flex;
-    align-content: center;
+    justify-content: center;
 }
 .stats-text{
     width: 540px;
@@ -233,17 +236,33 @@ nav{
     color: #18191F;
 }
 .stats-info{
-    width: 540px;
     height: 200px;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
-    gap: 40px;
 }
 .stats-item{
     display: flex;
-    padding: 30px;
-    gap: 16px;
+    justify-content: space-between;
+    min-width: 200px;
+}
+.stats-item h3{
+    color: #4D4D4D;
+    font-size: 28px;
+}
+.stats-item div{
+    margin-left: 30px;
+}
+.stats-item div,p{
+    width: 250px;
+}
+.ma{
+    margin-top: 20px;
+}
+.pp{
+    width: 250px;
+    color: #717171;
+    margin-top: 8px;
 }
 
 /* Section Testimonial*/
